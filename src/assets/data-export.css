@@ -1,0 +1,64 @@
+/* src/assets/styles/data-export.css */
+
+.data-export-container {
+    flex: 1;
+    padding: 16px;
+    background-color: #f4f4f9;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .export-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007AFF;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .export-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .link {
+    margin-top: 10px;
+    color: #007AFF;
+    text-align: center;
+  }
+  
+  .error {
+    color: #FF3B30;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .success {
+    color: #4CD964;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 480px) {
+    .data-export-container {
+      padding: 10px;
+    }
+  
+    .title {
+      font-size: 20px;
+    }
+  
+    .export-button {
+      padding: 8px;
+      font-size: 14px;
+    }
+  }

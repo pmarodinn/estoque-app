@@ -1,0 +1,79 @@
+/* src/assets/styles/stocks.css */
+
+.stocks-container {
+    flex: 1;
+    padding: 16px;
+    background-color: #f4f4f9;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .stock-item {
+    margin-bottom: 12px;
+    padding: 12px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .stock-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .stock-link {
+    color: #007AFF;
+    font-size: 16px;
+  }
+  
+  .add-stock-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007AFF;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .add-stock-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 480px) {
+    .stocks-container {
+      padding: 10px;
+    }
+  
+    .title {
+      font-size: 20px;
+    }
+  
+    .stock-item {
+      padding: 10px;
+    }
+  
+    .stock-name {
+      font-size: 16px;
+    }
+  
+    .stock-link {
+      font-size: 14px;
+    }
+  
+    .add-stock-button {
+      padding: 8px;
+      font-size: 14px;
+    }
+  }
